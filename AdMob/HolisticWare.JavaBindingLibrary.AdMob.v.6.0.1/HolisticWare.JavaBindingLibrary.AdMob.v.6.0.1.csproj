@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{998CE40B-DE68-4C49-83B2-F5D39F065E1A}</ProjectGuid>
+    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HolisticWare.JavaBindingLibrary.AdMob.v._6._0._1</RootNamespace>
+    <AssemblyName>HolisticWare.JavaBindingLibrary.AdMob.v.6.0.1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkVersion>v2.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Jars\AboutJars.txt" />
+    <None Include="Additions\AboutAdditions.txt" />
+    <LibraryProjectZip Include="SDK\googleadmobadssdkandroid.zip" />
+    <None Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\package-list" />
+  </ItemGroup>
+  <ItemGroup>
+    <TransformFile Include="Transforms\Metadata.xml" />
+    <TransformFile Include="Transforms\EnumFields.xml" />
+    <TransformFile Include="Transforms\EnumMethods.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\GoogleAdMobAdsSdk-6.0.1.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <InputJar Include="Jars\GoogleAdMobAdsSdk-6.0.1.jar" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\allclasses-frame.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\allclasses-noframe.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\Ad.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\AdListener.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\AdRequest.ErrorCode.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\AdRequest.Gender.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\AdRequest.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\AdSize.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\AdView.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\InterstitialAd.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\admob\AdMobAdapter.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\admob\AdMobAdapterExtras.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\admob\AdMobAdapterServerParameters.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\admob\package-frame.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\admob\package-summary.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\admob\package-tree.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\customevent\CustomEventAdapter.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\customevent\CustomEventBanner.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\customevent\CustomEventBannerListener.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\customevent\CustomEventInterstitial.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\customevent\CustomEventInterstitialListener.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\customevent\CustomEventListener.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\customevent\CustomEventServerParameters.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\customevent\package-frame.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\customevent\package-summary.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\customevent\package-tree.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\EmptyNetworkExtras.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\MediationAdapter.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\MediationAdRequest.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\MediationBannerAdapter.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\MediationBannerListener.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\MediationInterstitialAdapter.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\MediationInterstitialListener.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\MediationServerParameters.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\MediationServerParameters.MappingException.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\NetworkExtras.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\package-frame.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\package-summary.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\mediation\package-tree.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\package-frame.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\package-summary.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\com\google\ads\package-tree.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\constant-values.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\deprecated-list.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\help-doc.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\index-all.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\index.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\overview-frame.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\overview-summary.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\overview-tree.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\resources\inherit.gif" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\serialized-form.html" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\docs\stylesheet.css" />
+    <Content Include="SDK\googleadmobadssdkandroid\GoogleAdMobAdsSdkAndroid-6.0.1\README.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Xamarin.Android.Bindings.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

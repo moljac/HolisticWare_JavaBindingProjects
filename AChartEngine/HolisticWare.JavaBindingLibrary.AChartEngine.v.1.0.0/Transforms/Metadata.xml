@@ -1,0 +1,50 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  
+  
+  More details"
+  http://holisticware.net/HolisticWare/Know-How/development/Mobile/android/mono-for-android-monodroid/binding-projects.aspx
+  -->
+  <!--
+	HolisticWare
+	org.achartengine 
+  -->
+  <!--
+  
+	Namespace renaming:
+	  org.achartengine.tools -> Android.AChartEngine.Tools
+  -->
+  <attr
+	  path="/api/package[@name='org.achartengine.tools']"
+	  name="managedName"
+	  >Android.AChartEngine.Tools</attr>
+
+  <!--
+	Class renaming:
+  <attr
+	  path="/api/package[@name='org.achartengine.tools']/class[@name='Pan']"
+	  name="managedName"
+	  >PanWrapper</attr>
+  -->
+  <attr
+	  path="/api/package[@name='org.achartengine.tools']/class[@name='Pan']/method[@name='addPanListener']"
+	  name="eventName"
+  >Panned</attr>
+
+</metadata>
+
+
+<!--
+  Whitespace causes: -> generator.exe exceptiopn
+ <attr
+	  path="/api/package[@name='org.achartengine.tools']"
+	  name="managedName"
+	  >
+	  Android.AChartEngine.Tools
+	  </attr>
+-->
