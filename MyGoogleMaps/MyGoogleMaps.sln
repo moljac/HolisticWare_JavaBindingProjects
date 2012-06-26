@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGoogleMaps", "MyGoogleMaps\MyGoogleMaps.csproj", "{97F73750-D8B7-46D5-A675-8D99AC522632}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingTestApp", "BindingTestApp\BindingTestApp.csproj", "{F736E7A5-6EBD-4003-BB63-888CACC12293}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97F73750-D8B7-46D5-A675-8D99AC522632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F73750-D8B7-46D5-A675-8D99AC522632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F73750-D8B7-46D5-A675-8D99AC522632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F73750-D8B7-46D5-A675-8D99AC522632}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F736E7A5-6EBD-4003-BB63-888CACC12293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F736E7A5-6EBD-4003-BB63-888CACC12293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F736E7A5-6EBD-4003-BB63-888CACC12293}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F736E7A5-6EBD-4003-BB63-888CACC12293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F736E7A5-6EBD-4003-BB63-888CACC12293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F736E7A5-6EBD-4003-BB63-888CACC12293}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

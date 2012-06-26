@@ -1,0 +1,11 @@
+﻿<enum-method-mappings>
+  <mapping jni-class="com/google/android/maps/MapController">
+    <method jni-name="onKey" parameter="p1" clr-enum-type="Android.Views.Keycode" />
+  </mapping>
+  <mapping jni-class="com/google/android/maps/MyLocationOverlay">
+    <method jni-name="onStatusChanged" parameter="p1" clr-enum-type="Android.Locations.Availability" />
+    <method jni-name="onAccuracyChanged" parameter="p0" clr-enum-type="Android.Hardware.SensorType" />
+    <method jni-name="onAccuracyChanged" parameter="p1" clr-enum-type="Android.Hardware.SensorStatus" />
+    <method jni-name="onSensorChanged" parameter="p0" clr-enum-type="Android.Hardware.SensorType" />
+  </mapping>
+</enum-method-mappings>
