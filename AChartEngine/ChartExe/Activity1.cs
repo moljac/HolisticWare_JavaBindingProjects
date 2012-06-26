@@ -9,6 +9,9 @@ using Android.OS;
 
 namespace ChartExe
 {
+	/// <summary>
+	/// 
+	/// </summary>
 	[Activity(Label = "ChartExe", MainLauncher = true, Icon = "@drawable/icon")]
 	public class Activity1 : Activity
 	{
@@ -26,6 +29,8 @@ namespace ChartExe
 			Button button = FindViewById<Button>(Resource.Id.MyButton);
 
 			button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+
+
 		}
 	}
 }

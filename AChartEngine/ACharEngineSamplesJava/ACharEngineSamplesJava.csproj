@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3EA4BB7B-8E61-4EF2-9752-99E8659FBA77}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ACharEngineSamplesJava</RootNamespace>
+    <AssemblyName>ACharEngineSamplesJava</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="achartengine-1.0.0-demo-source\.classpath" />
+    <None Include="achartengine-1.0.0-demo-source\.project" />
+    <LibraryProjectZip Include="achartengine-1.0.0-demo-source\achartengine-1.0.0-demo-source.zip" />
+    <None Include="achartengine-1.0.0-demo-source\default.properties" />
+  </ItemGroup>
+  <ItemGroup>
+    <TransformFile Include="achartengine-1.0.0-demo-source\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="achartengine-1.0.0-demo-source\res\drawable-hdpi\achartengine.png" />
+    <Content Include="achartengine-1.0.0-demo-source\res\drawable-ldpi\achartengine.png" />
+    <Content Include="achartengine-1.0.0-demo-source\res\drawable-mdpi\achartengine.png" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\ChartDemo.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\AbstractDemoChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\AverageCubicTemperatureChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\AverageTemperatureChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\BudgetDoughnutChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\BudgetPieChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\CombinedTemperatureChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\IDemoChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\MultipleTemperatureChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\PieChartBuilder.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\ProjectStatusBubbleChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\ProjectStatusChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\SalesBarChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\SalesComparisonChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\SalesGrowthChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\SalesStackedBarChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\ScatterChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\SensorValuesChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\TemperatureChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\TrigonometricFunctionsChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\WeightDialChart.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\chart\XYChartBuilder.java" />
+    <Content Include="achartengine-1.0.0-demo-source\src\org\achartengine\chartdemo\demo\GeneratedChartDemo.java" />
+    <TransformFile Include="achartengine-1.0.0-demo-source\res\values\strings.xml" />
+    <TransformFile Include="achartengine-1.0.0-demo-source\res\layout\xy_chart.xml" />
+    <InputJar Include="achartengine-1.0.0-demo-source\lib\achartengine-1.0.0.jar" />
+    <Content Include="achartengine-1.0.0-demo-source\LICENSE-2.0.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

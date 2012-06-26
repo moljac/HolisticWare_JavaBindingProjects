@@ -66,6 +66,12 @@
   <ItemGroup>
     <AndroidResource Include="Resources\Drawable\Icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HolisticWare.JavaBindingLibrary.AChartEngine.v.1.0.0\HolisticWare.JavaBindingLibrary.AChartEngine.v.1.0.0.csproj">
+      <Project>{60191FA7-592A-48C9-AFFA-92C464ECB984}</Project>
+      <Name>HolisticWare.JavaBindingLibrary.AChartEngine.v.1.0.0</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,0 +1,12 @@
+Error	1	 package org.achartengine.tools does not exist
+		org.achartengine.tools.PanListener
+	\HolisticWare_JavaBindingProjects\AChartEngine\ChartExe\obj\Debug\android\src\mono\org\achartengine\tools\PanListenerImplementor.java	8	25	ChartExe
+Error	2	 package org.achartengine.tools does not exist
+		org.achartengine.tools.ZoomListener
+	\HolisticWare_JavaBindingProjects\AChartEngine\ChartExe\obj\Debug\android\src\mono\org\achartengine\tools\ZoomListenerImplementor.java	8	25	ChartExe
+Error	3	 package org.achartengine.tools does not exist
+	public void zoomApplied (org.achartengine.tools.ZoomEvent p0)
+	\HolisticWare_JavaBindingProjects\AChartEngine\ChartExe\obj\Debug\android\src\mono\org\achartengine\tools\ZoomListenerImplementor.java	28	49	ChartExe
+Error	4	 package org.achartengine.tools does not exist
+	private native void n_zoomApplied (org.achartengine.tools.ZoomEvent p0);
+	\HolisticWare_JavaBindingProjects\AChartEngine\ChartExe\obj\Debug\android\src\mono\org\achartengine\tools\ZoomListenerImplementor.java	33	59	ChartExe
