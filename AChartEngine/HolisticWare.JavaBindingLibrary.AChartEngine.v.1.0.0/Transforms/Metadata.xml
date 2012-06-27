@@ -30,12 +30,18 @@
 	  path="/api/package[@name='org.achartengine.tools']/class[@name='Pan']"
 	  name="managedName"
 	  >PanWrapper</attr>
-  -->
+	  
   <attr
 	  path="/api/package[@name='org.achartengine.tools']/class[@name='Pan']/method[@name='addPanListener']"
 	  name="eventName"
   >Panned</attr>
+  -->
 
+  <attr
+	  path="/api/package[@name='org.achartengine.tools']/class[@name='Pan']/property[@name='ThresholdClass']"
+	  name="managedName"
+  >ThresholdClassAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</attr>
+  
 </metadata>
 
 

@@ -1,0 +1,36 @@
+﻿C:\Program Files\Java\jdk1.6.0_32\bin\java.exe -jar "C:\Program Files\MSBuild\Novell\jar2xml.jar" 
+	--jar=D:\SRC\smartphone-samples\MonoForAndroid\HolisticWare_JavaBindingProjects\AdMob\HolisticWare.JavaBindingLibrary.AdMob.v.6.0.1\Jars\GoogleAdMobAdsSdk-6.0.1.jar 
+	--ref="C:\Program Files\Android\android-sdk-windows\platforms\android-8\android.jar" 
+	--out=D:\SRC\smartphone-samples\MonoForAndroid\HolisticWare_JavaBindingProjects\AdMob\HolisticWare.JavaBindingLibrary.AdMob.v.6.0.1\obj\Debug\api.xml  (TaskId:35)
+  Exception in thread "main" java.lang.NoClassDefFoundError: android/webkit/WebResourceResponse (TaskId:35)
+	at java.lang.Class.getDeclaredMethods0(Native Method) (TaskId:35)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2427) (TaskId:35)
+	at java.lang.Class.getDeclaredMethods(Class.java:1791) (TaskId:35)
+	at jar2xml.JavaClass.appendToDocument(JavaClass.java:482) (TaskId:35)
+	at jar2xml.JavaPackage.appendToDocument(JavaPackage.java:66) (TaskId:35)
+	at jar2xml.Start.main(Start.java:157) (TaskId:35)
+  Caused by: java.lang.ClassNotFoundException: android.webkit.WebResourceResponse (TaskId:35)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:202) (TaskId:35)
+	at java.security.AccessController.doPrivileged(Native Method) (TaskId:35)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:190) (TaskId:35)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:306) (TaskId:35)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:247) (TaskId:35)
+	... 6 more (TaskId:35)
+C:\Program Files\MSBuild\Novell\Xamarin.Android.Bindings.targets(170,5): error MSB6006: "java.exe" exited with code 1.
+Done executing task "JarToXml" -- FAILED. (TaskId:35)
+
+
+From:
+	http://docs.xamarin.com/android/tutorials/Binding_a_Java_Library_(.jar)#Troublshooting_Bindings
+Problem:
+	java.lang.NoClassDefFoundError is thrown in the packaging step.
+Possible Causes:
+	The most likely reason for this error is a mandatory Java library needs to be added to the 
+	application project (csproj). Jars are not automatically resolved. A Java library binding is 
+	not always generated against a user assembly that does not exist in the target device or 
+	emulator (such as Google Maps maps.jar).
+	
+	This is not the case for Android Library project support, as the library jar is embedded in 
+	the library dll.
+
+For example: https://bugzilla.xamarin.com/show_bug.cgi?id=4288
